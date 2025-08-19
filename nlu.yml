@@ -1,0 +1,80 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: request_info_form
+  examples: |
+    - I want to register
+    - I need to provide my information
+    - collect my details
+    - registration
+    - sign me up
+    - I want to give my info
+    - register me
+    - take my details
+    - yes
+
+- intent: inform
+  examples: |
+    - my name is [John](name)
+    - I'm [Sarah](name)
+    - call me [Mike](name)
+    - I live in [New York](city)
+    - I'm from [London](city)
+    - my city is [Paris](city)
+    - my phone is [123-456-7890](phone)
+    - call me at [555-0123](phone)
+    - my number is [987-654-3210](phone)
+    - [John Smith](name)
+    - [Los Angeles](city)
+    - [555-123-4567](phone)
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yes please
+    - sure
+    - absolutely
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nope
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
